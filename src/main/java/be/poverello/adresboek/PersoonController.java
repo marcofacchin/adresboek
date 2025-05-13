@@ -9,6 +9,9 @@ public class PersoonController {
 
     public PersoonController(PersoonService persoonService) {
         this.persoonService = persoonService;
+        System.out.println("PersoonController opgestart...");
+        System.out.println("username: " + System.getProperty("user.name"));
+        System.out.println("OS: " + System.getProperty("os.name"));
     }
 
     @GetMapping("adresboek/aantalpersonen")
