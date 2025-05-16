@@ -68,7 +68,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <image>
-                        <name>adresboek_render</name> 
+                        <name>adresboek_render</name>
                     </image>
                 </configuration>
             </plugin>
